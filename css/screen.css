@@ -8,13 +8,20 @@
 
 :root {
   /* Global colors */
-  --global-color-back: #6dbedf;
-  --global-color-front: white;
+  --global-color-front: #6dbedf;
+  --global-color-back: grey;
+  
 
   /* global page settings */
   --global-html-color: var(--global-color-front);
   --global-html-backgroundColor: var(--global-color-back);
   --global-selection-backgroundColor: var(--global-color-front);
+
+  /*object colors*/
+  --object-wave-color: #54c3d7;
+  --object-ocean-bottom-color: #03076c;
+  --object-sand-color: #fcedc5;
+
 }
 
 /*------------------------------------*\
@@ -140,12 +147,56 @@ body {
 */
 
 .c-mill{
-  max-height: 500px;
+  max-height: 50vh;
+  max-width: 20vw;
+  position: fixed;
+  right: 2vw;
 }
 .cls-2{
   fill: var(--global-color-back)
 }
+/*
+    Component: ocean
+*/
+.c-ocean{
+  display: block;
+  height: 22vh;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  background-image: linear-gradient(var(--object-wave-color),var(--object-ocean-bottom-color));
+  
+}
+.c-wave-one{
+  max-height: 42vh;
+  max-width: 20vw;
+  position: fixed;
+  bottom: 0;
+  left: -1vw;
+}
+.c-wave, .c-wave__borderless {
+  fill: var(--object-wave-color);
+}
 
+.c-wave__borderless{
+  stroke: var(--object-wave-color);
+}
+.c-wave__background{
+fill: var(--global-color-back);}
+
+
+.c-island{
+  max-width: 60vw;
+  max-height: 50vh;
+  fill: var(--object-sand-color);
+  stroke: black;
+  stroke-miterlimit: 10;
+  stroke-width: 0.1px;
+  position: fixed;
+  bottom: -10vh;
+  z-index: 100;
+  right: -15vw;
+}
 /*
     Component: Controls
 */
