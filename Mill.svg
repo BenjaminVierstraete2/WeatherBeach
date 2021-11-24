@@ -1,0 +1,20 @@
+<svg id="Mill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.14 116.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #878787;
+      }
+    </style>
+  </defs>
+  <g id="MillBase">
+    <path class="cls-1" d="M85.93,177.76h23.65c0-6.12-10.67-11.16-23.65-11.16s-23.65,5-23.65,11.16v0Z" transform="translate(-62.28 -61.12)"/>
+    <path class="cls-1" d="M86.79,97.05q-1.23,0-2.46,0Q82.65,132.63,81,168.22q4.58.22,9.17,0Z" transform="translate(-62.28 -61.12)"/>
+    <circle class="cls-1" cx="23.6" cy="32.83" r="5"/>
+  </g>
+  <g id="millBlades">
+    <circle class="cls-1" cx="23.65" cy="32.87" r="5"/>
+    <path class="cls-1" d="M85.74,95.42s38.87.51,38.68.32a2,2,0,0,1-.32-.71L93.31,90.19,85.74,93" transform="translate(-62.28 -61.12)"/>
+    <path class="cls-1" d="M85.29,92.85S63.57,125.09,63.83,125a2,2,0,0,1,.77.13l20.92-23.11,1.81-7.86" transform="translate(-62.28 -61.12)"/>
+    <path class="cls-1" d="M86.79,92.91s-22-32.06-22-31.79a2,2,0,0,1-.4.67L78.15,89.74l6.65,4.58" transform="translate(-62.28 -61.12)"/>
+  </g>
+</svg>
