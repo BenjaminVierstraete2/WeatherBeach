@@ -1,0 +1,48 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1227.5 525.5">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: gray;
+      }
+
+      .cls-3 {
+        fill: aqua;
+      }
+
+      .cls-4 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5 {
+        font-size: 12px;
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M1376.5,648.52v152h1v-152Z" transform="translate(-150 -275)"/>
+  <g>
+    <rect class="cls-2" width="100" height="290" rx="42.57"/>
+    <ellipse class="c-thermo-temp" cx="51" cy="254.04" rx="20" ry="15.3"/>
+    <rect class="c-thermo-temp" id= x="41" y="174" width="19" height="80.04" rx="4.91"/>
+    <path class="cls-4" d="M220.5,529.42c0,8.45-8.95,15.3-20,15.3s-20-6.85-20-15.3c0-5.66,4-10.61,10-13.25V306.66c0-4.18,4.42-7.56,9.87-7.56h.26c5.45,0,9.87,3.38,9.87,7.56V516.17C216.48,518.81,220.5,523.76,220.5,529.42Z" transform="translate(-150 -275)"/>
+  </g>
+  <text class="cls-5" transform="translate(62.33 222.52)">-20°c</text>
+  <text class="cls-5" transform="translate(66.33 122.52)">20°c</text>
+  <text class="cls-5" transform="translate(62.33 197.31)">-10°c</text>
+  <text class="cls-5" transform="translate(66.33 147.52)">10°c</text>
+  <text class="cls-5" transform="translate(72.33 172.52)">0°c</text>
+  <text x="-150" y="-275"/>  <text class="cls-5" transform="translate(66.38 72.8)">40°c</text>
+  <text class="cls-5" transform="translate(66.38 97.8)">30°c</text>
+  <line class="cls-4" x1="60.76" y1="175" x2="87.5" y2="175"/>
+  <line class="cls-4" x1="60.76" y1="225" x2="87.5" y2="225"/>
+  <line class="cls-4" x1="60.76" y1="150" x2="87.5" y2="150"/>
+  <line class="cls-4" x1="60.76" y1="200" x2="87.5" y2="200"/>
+  <line class="cls-4" x1="60.76" y1="75" x2="87.5" y2="75"/>
+  <line class="cls-4" x1="60.76" y1="125" x2="87.5" y2="125"/>
+  <line class="cls-4" x1="60.76" y1="100" x2="87.5" y2="100"/>
+</svg>
